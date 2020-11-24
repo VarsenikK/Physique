@@ -1,0 +1,889 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Light.eot');
+    src: url('../fonts/Metropolis-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Light.woff2') format('woff2'),
+    url('../fonts/Metropolis-Light.woff') format('woff'),
+    url('../fonts/Metropolis-Light.ttf') format('truetype'),
+    url('../fonts/Metropolis-Light.svg#Metropolis-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Regular.eot');
+    src: url('../fonts/Metropolis-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Regular.woff2') format('woff2'),
+    url('../fonts/Metropolis-Regular.woff') format('woff'),
+    url('../fonts/Metropolis-Regular.ttf') format('truetype'),
+    url('../fonts/Metropolis-Regular.svg#Metropolis-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Medium.eot');
+    src: url('../fonts/Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Medium.woff2') format('woff2'),
+    url('../fonts/Metropolis-Medium.woff') format('woff'),
+    url('../fonts/Metropolis-Medium.ttf') format('truetype'),
+    url('../fonts/Metropolis-Medium.svg#Metropolis-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Medium_1.eot');
+    src: url('../fonts/Metropolis-Medium_1.eot?#iefix') format('../fonts/embedded-opentype'),
+    url('../fonts/Metropolis-Medium_1.woff2') format('woff2'),
+    url('../fonts/Metropolis-Medium_1.woff') format('woff'),
+    url('../fonts/Metropolis-Medium_1.ttf') format('truetype'),
+    url('../fonts/Metropolis-Medium_1.svg#Metropolis-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeueRegular.eot');
+    src: url('../fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+    url('../fonts/BebasNeueRegular.woff') format('woff'),
+    url('../fonts/BebasNeueRegular.ttf') format('truetype'),
+    url('../fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Metropolis Semi';
+    src: url('../fonts/Metropolis-SemiBold.eot');
+    src: url('../fonts/Metropolis-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-SemiBold.woff2') format('woff2'),
+    url('../fonts/Metropolis-SemiBold.woff') format('woff'),
+    url('../fonts/Metropolis-SemiBold.ttf') format('truetype'),
+    url('../fonts/Metropolis-SemiBold.svg#Metropolis-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+
+.d-flex{
+    display: flex;
+}
+header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 25px 15px 11px;
+    position: absolute;
+    z-index: 1;
+}
+header .container{
+    max-width: 1170px;
+    margin: auto;
+
+}
+header .top{
+    border-bottom: solid 2px #464646;
+    padding-bottom: 21px;
+}
+header .d-flex{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header img{
+    display: block;
+    width: 100%;
+}
+header form{
+    width: 210px;
+    height: 42px;
+    background-color: #ebebeb;
+    border-radius: 4px;
+}
+header form input{
+    width: 70%;
+    height: 42px;
+    padding-left: 16px;
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    font: 15px/15px 'Metropolis', sans-serif;
+    color: #959595;
+    outline: none;
+}
+header form button i{
+    font-size: 17px;
+    font-family: 'Metropolis', sans-serif;
+}
+header form button{
+    line-height: 35px;
+    width: 25%;
+    border: none;
+    text-align: center;
+    padding-top: 5px;
+    color: #fa090a;
+    background-color: transparent;
+    outline: none;
+
+}
+header .link a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    min-width: 170px;
+    text-align: center;
+    padding: 13px 0 12px;
+    border-radius: 2px;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 10px;
+
+}
+header .link a i{
+    margin-right: 13px;
+}
+header .link .grey{
+    background-color: #252525;
+}
+header .link .light-grey{
+    background-color: #464646;
+}
+
+header .link .red{
+    background-color: #fa090a;
+}
+/*..bottom..*/
+header .bottom.d-flex{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 22px 0 10px;
+}
+header .bottom nav ul{
+    list-style: none;
+}
+header .bottom nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+header .bottom ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    padding: 0 5px 10px 5px;
+    transition: 0.3s;
+}
+
+header .bottom nav ul li:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: #ff0000;
+}
+header .bottom nav ul li:hover:after, header .bottom nav ul li:active:after{
+    width: 100%;
+}
+
+/*...soc...*/
+header .soc{
+    display: inline-block;
+
+}
+header .soc a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fa090a;
+    margin-left: 15px;
+    text-align: center;
+    padding-top: 4px;
+
+}
+header .soc .fb{
+    color: #160506;
+    font-size: 25px;
+
+}
+header .soc .inst{
+    color: #160506;
+    font-size: 25px;
+
+}
+header .soc .tw{
+    color: #160506;
+    font-size: 25px;
+
+}
+header .soc .yt{
+    color: #160506;
+    font-size: 25px;
+
+}
+
+
+/*...SECTION...*/
+section.top-container{
+    width: 100%;
+    position: relative;
+}
+
+img.background{
+    display: block;
+    width: 100%;
+}
+div.trainers{
+    width: 100%;
+    position: absolute;
+    bottom: 21px;
+    z-index: 1;
+}
+
+.trainers h1{
+    max-width: 1170px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    color: #fff;
+    padding-bottom: 34px;
+    border-bottom: 3px solid #ff0000;
+}
+
+section .main.d-flex{
+    /*max-width: 1220px;*/
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+/*...ASIDE...*/
+section .aside{
+    width: 242px;
+    background-color: #000;
+    padding-top: 25px;
+}
+section .aside .container{
+    max-width: 189px;
+    padding-top: 25px;
+}
+
+section .aside nav ul li{
+    display: flex;
+    list-style: none;
+    margin-bottom: 25px;
+    width: 240px;
+    height: 34px;
+    padding-top: 8px;
+    background-color: transparent;
+    align-items: center;
+}
+section .aside nav ul li a{
+    width: 100%;
+    font-family: 'Metropolis Semi',sans-serif;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 24px;
+
+}
+
+section .aside form{
+    width: 100%;
+    height: 42px;
+    background-color: #fff;
+    border-radius: 4px;
+    align-items: center;
+    margin-left: 25px;
+}
+section .aside button{
+
+    font-size: 17px;
+    color: #c2c2c2;
+    border: 0;
+    background-color: transparent;
+    padding: 12px 0 0 16px;
+    outline: none;
+
+}
+section .aside button i{
+    color: #c3c3c3;
+    width: 18px;
+    height: 17px;
+}
+section .aside input{
+    width: 70%;
+    border: 0;
+    background-color: transparent;
+    padding-top: 14px;
+    outline: none;
+}
+::placeholder {
+    font-family: 'Metropolis', sans-serif;
+    font-size: 15px;
+    color: #000;
+    text-transform: uppercase;
+    padding-left: 14px;
+}
+section .aside nav ul li a{
+    padding-bottom: 12px;
+}
+
+section .aside nav ul li a span{
+    text-transform: uppercase;
+    font-family: 'Metropolis Semi', sans-serif;
+    font-weight: 600;
+    padding-left: 20px;
+
+}
+section .aside nav ul li:nth-child(1) a::before {
+    content: "\f44b";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    text-rendering: auto;
+    line-height: 1;
+    color: #bebebe;
+}
+
+section .aside nav ul li:nth-child(2) a::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 19px;
+    background-image: url('../images/abs_03.png');
+    background-repeat: no-repeat;
+}
+
+section .aside nav ul li:nth-child(3) a::before {
+    content: url('../images/arm_07.png');
+
+}
+
+section .aside nav ul li:nth-child(4) a::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 19px;
+    background-image: url('../images/back_11.png');
+    background-repeat: no-repeat;
+
+}
+
+section .aside nav ul li:nth-child(5) a::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 19px;
+    background-image: url('../images/chest_14.png');
+    background-repeat: no-repeat;
+
+}
+
+section .aside nav ul li:nth-child(6) a::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 19px;
+    background-image: url('../images/leg_18.png');
+    background-repeat: no-repeat;
+
+}
+
+section .aside nav ul li:nth-child(7) a::before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 19px;
+    background-image: url('../images/shoulder_21.png');
+    background-repeat: no-repeat;
+
+}
+section .aside nav ul li:nth-child(8) a::before {
+    content: "\f1c8";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    text-rendering: auto;
+    line-height: 1;
+    color: #bebebe;
+}
+section .aside nav ul li:hover{
+    width: 240px;
+    height: 34px;
+    /*padding-top: 8px;*/
+    background-color: #ff0000;
+}
+
+
+/*...VIDEO TOP...*/
+section .video.container{
+    max-width: 980px;
+    margin: auto;
+    padding: 34px 42px 0;
+    background-color: #f1f1f1;
+}
+section .top.d-flex{
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+}
+section .headline.d-flex{
+    /*justify-content: space-between;*/
+    align-items: center;
+    margin-bottom: 21px;
+
+}
+
+section .video .top{
+    border-bottom: 1px solid #898989;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 34px;
+}
+section  div.image{
+    display: inline-block;
+    width: 35px;
+    height: 36px;
+    text-align: center;
+}
+
+section .video h2{
+    display: inline-block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    color: #000;
+    font-weight: normal;
+    margin-left: 23px;
+    /*text-align: center;*/
+
+}
+section .big-video{
+    max-width: 896px;
+}
+.big-video img.big{
+    display: block;
+    width: 100%;
+}
+section .video h2 span{
+    margin-left: 26px;
+}
+
+form.d-flex{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+form.d-flex label{
+    width: 169px;
+    height: 42px;
+    background-color: #a1a1a1;
+    border: none;
+    border-radius: 4px;
+    /*padding: 0 17px;*/
+    margin-left: 16px;
+    flex-wrap: wrap;
+    outline: none;
+    align-items: center;
+    position: relative;
+    margin-bottom: 21px;
+}
+form.d-flex select{
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    justify-content: space-between;
+    font-size: 13px;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 16px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+form.d-flex select option{
+    width: 100%;
+}
+
+form.d-flex button{
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    position: absolute;
+    right: 17px;
+}
+
+/*...VIDEO TOP...*/
+section .video .big-video{
+    display: block;
+    width: 100%;
+    margin-bottom: 37px;
+}
+
+/*...VIDEO SMALL...*/
+
+section .video_small .d-flex{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+section .video_small .item{
+
+    max-width: 430px;
+    display: inline-block;
+    border-bottom: 1px solid #898989;
+    margin-bottom: 34px;
+}
+.video_small div.item_img{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 21px;
+}
+.item_img img{
+    display: block;
+    width: 100%;
+}
+.item_img img.letter{
+    display: block;
+
+    position: absolute;
+}
+/*section .video_small .d-flex .item{
+    justify-content: space-between;
+
+}
+section .video_small .item img{
+    display: block;
+    width: 100%;
+    margin-bottom: 21px;
+}*/
+
+div.item_img:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(134, 26, 27, 0);
+    z-index: 2;
+    top: 0;
+    transition: 0.3s;
+}
+
+div.item_img:before{
+    content: url('../images/images/logo-white_03.png');
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 3;
+    top: 42%;
+    left: 42%;
+    transition: 0.3s;
+}
+
+div.item_img:hover:after{
+    background-color: rgba(134, 26, 27, 0.6);
+}
+
+div.item_img:hover:before{
+    content: url('../images/images/logo_letter_03.png');
+}
+
+section .video_small h4 span{
+    padding-left: 17px;
+}
+section .video_small h4{
+    display: inline-block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    color: #363636;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+section .video_small h4::before {
+    content: "\f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    color: #363636;
+
+}
+
+section .video_small .item p{
+    display: inline-block;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 13px;
+    color: #555555;
+    margin-right: 13px;
+    margin-bottom: 20px;
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 33px;
+    height: 9px;
+    margin-bottom: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 17px;
+    width: 17px;
+    bottom: -3px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    background-color: #959595;
+}
+
+input:checked + .slider.round{
+    background-color: #cccccc;
+    color: #fa090a;
+}
+
+
+input:checked + .slider:before{
+    -webkit-transform: translateX(17px);
+    -ms-transform: translateX(17px);
+    transform: translateX(17px);
+    background-color: #fa090a;
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 50px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/*...NAV PAGE....*/
+section .video .page{
+    max-width: 1170px;
+    margin: auto;
+    padding-bottom: 42px;
+}
+.page nav{
+    text-align: center;
+}
+.page nav ul li{
+    display: inline;
+}
+.page nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 13px;
+    padding-top: 2px;
+    background-color: transparent;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+.page nav ul li a:hover{
+    background-color: #fa090a;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.page nav ul li:nth-child(1) a::before {
+    content: "\f104";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    margin-right: 17px;
+    padding-left: 5px;
+
+}
+
+.page nav ul li:nth-child(5) a::after {
+    content: "\f105";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    margin-left: 9px;
+    padding-right: 10px;
+
+}
+
+
+/*...FOOTER...*/
+footer{
+    background-color: #010006;
+    padding: 75px 0 63px;
+    position: relative;
+}
+footer .container{
+    max-width: 900px;
+    margin: auto;
+}
+
+
+footer p{
+    font-family: 'Metropolis', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 200%;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
+footer .d-flex{
+    justify-content: center;
+}
+footer input{
+    width: 390px;
+    height: 43px;
+    padding: 15px 0 15px 26px;
+    margin-right: 33px;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    color: #959595;
+    outline: none;
+}
+footer button{
+    width: 310px;
+    height: 51px;
+    background-color: #ff0000;
+    border: none;
+    margin-bottom: 49px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    outline: none;
+}
+
+/*...FOOTER LINKS...*/
+footer .links{
+    background-color: #252525;
+    margin-bottom: 64px;
+    padding: 51px 0 65px;
+}
+footer .links .container{
+    max-width: 1170px;
+    margin: auto;
+
+}
+footer .links .d-flex{
+    justify-content: space-between;
+}
+footer img{
+    display: block;
+    width: 100%;
+    margin-bottom: 44px;
+}
+footer nav ul{
+    list-style: none;
+}
+footer .info a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: 500;
+    line-height: 34px;
+}
+footer .soc ul li{
+    display: inline-block;
+    align-items: flex-end;
+
+}
+footer .soc a{
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    background-color: #fa090a;
+    margin-left: 15px;
+    text-align: center;
+    padding-top: 6px;
+}
+footer .soc .fb{
+    color: #252525;
+    font-size: 30px;
+
+}
+footer .soc .inst{
+    color: #252525;
+    font-size: 30px;
+
+}
+footer .soc .tw{
+    color: #252525;
+    font-size: 30px;
+
+}
+footer .soc .yt{
+    color: #252525;
+    font-size: 30px;
+
+}
