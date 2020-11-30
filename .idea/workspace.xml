@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c813e1a-784d-437b-9f51-0898a205810f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/media-queries/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media-queries/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries/media.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,27 +68,46 @@
       <workItem from="1605687182032" duration="19372000" />
       <workItem from="1605807552475" duration="282000" />
       <workItem from="1606240840207" duration="1653000" />
-      <workItem from="1606745501841" duration="12917000" />
+      <workItem from="1606745501841" duration="13227000" />
     </task>
+    <task id="LOCAL-00001" summary="Add file media-queries">
+      <created>1606759436634</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606759436634</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add file media-queries">
+      <created>1606759496833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606759496833</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add file media-queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add file media-queries" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="229" key="CommitChangelistDialog2" timestamp="1606759430778">
+    <state x="0" y="229" key="CommitChangelistDialog2" timestamp="1606759493069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="229" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606759430778" />
+    <state x="0" y="229" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606759493069" />
     <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1606248459772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605343339312" />
     <state x="651" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606248459772" />
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1606759464909">
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1606759518925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606759464909" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606759518925" />
     <state x="540" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1605807577696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
