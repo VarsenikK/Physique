@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c813e1a-784d-437b-9f51-0898a205810f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/media-queries/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -67,7 +69,8 @@
       <workItem from="1605548325209" duration="17325000" />
       <workItem from="1605687182032" duration="19372000" />
       <workItem from="1605807552475" duration="282000" />
-      <workItem from="1606240840207" duration="813000" />
+      <workItem from="1606240840207" duration="1653000" />
+      <workItem from="1606745501841" duration="12917000" />
     </task>
     <servers />
   </component>
@@ -75,11 +78,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1605807843998">
+    <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1606248459772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605343339312" />
-    <state x="651" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605807843998" />
+    <state x="651" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606248459772" />
     <state x="540" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1605807577696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

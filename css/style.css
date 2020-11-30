@@ -177,6 +177,12 @@ header .bottom.d-flex{
     align-items: center;
     padding: 22px 0 10px;
 }
+.wrapper input {
+    display: none;
+}
+.wrapper label {
+    display: none;
+}
 header .bottom nav ul{
     list-style: none;
 }
@@ -842,6 +848,8 @@ footer img{
     width: 100%;
     margin-bottom: 44px;
 }
+
+
 footer nav ul{
     list-style: none;
 }
@@ -887,9 +895,4 @@ footer .soc .yt{
     font-size: 30px;
 
 }
-.git{
-    color: #160506;
-}
-.git h5{
-    font-size: 20px;
-}
+
