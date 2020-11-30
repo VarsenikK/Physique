@@ -62,6 +62,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Metropolis Semi';
     src: url('../fonts/Metropolis-SemiBold.eot');
@@ -74,50 +75,59 @@
     font-style: normal;
     font-display: swap;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     position: relative;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
 }
-header{
+
+header {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 25px 15px 11px;
     position: absolute;
     z-index: 1;
 }
-header .container{
+
+header .container {
     max-width: 1170px;
     margin: auto;
 
 }
-header .top{
+
+header .top {
     border-bottom: solid 2px #464646;
     padding-bottom: 21px;
 }
-header .d-flex{
+
+header .d-flex {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
 }
-header img{
+
+header img {
     display: block;
     width: 100%;
 }
-header form{
+
+header form {
     width: 210px;
     height: 42px;
     background-color: #ebebeb;
     border-radius: 4px;
 }
-header form input{
+
+header form input {
     width: 70%;
     height: 42px;
     padding-left: 16px;
@@ -128,11 +138,13 @@ header form input{
     color: #959595;
     outline: none;
 }
-header form button i{
+
+header form button i {
     font-size: 17px;
     font-family: 'Metropolis', sans-serif;
 }
-header form button{
+
+header form button {
     line-height: 35px;
     width: 25%;
     border: none;
@@ -143,7 +155,8 @@ header form button{
     outline: none;
 
 }
-header .link a{
+
+header .link a {
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -157,40 +170,49 @@ header .link a{
     margin: 10px 10px;
 
 }
-header .link a i{
+
+header .link a i {
     margin-right: 13px;
 }
-header .link .grey{
+
+header .link .grey {
     background-color: #252525;
 }
-header .link .light-grey{
+
+header .link .light-grey {
     background-color: #464646;
 }
 
-header .link .red{
+header .link .red {
     background-color: #fa090a;
 }
+
 /*..bottom..*/
-header .bottom.d-flex{
+header .bottom.d-flex {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     padding: 22px 0 10px;
 }
+
 .wrapper input {
     display: none;
 }
+
 .wrapper label {
     display: none;
 }
-header .bottom nav ul{
+
+header .bottom nav ul {
     list-style: none;
 }
-header .bottom nav ul li{
+
+header .bottom nav ul li {
     display: inline-block;
     margin-right: 15px;
 }
-header .bottom ul li a{
+
+header .bottom ul li a {
     display: inline-block;
     text-decoration: none;
     font-size: 25px;
@@ -201,23 +223,25 @@ header .bottom ul li a{
     transition: 0.3s;
 }
 
-header .bottom nav ul li:after{
+header .bottom nav ul li:after {
     content: "";
     display: block;
     width: 0;
     height: 4px;
     background-color: #ff0000;
 }
-header .bottom nav ul li:hover:after, header .bottom nav ul li:active:after{
+
+header .bottom nav ul li:hover:after, header .bottom nav ul li:active:after {
     width: 100%;
 }
 
 /*...soc...*/
-header .soc{
+header .soc {
     display: inline-block;
 
 }
-header .soc a{
+
+header .soc a {
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -227,22 +251,26 @@ header .soc a{
     padding-top: 4px;
 
 }
-header .soc .fb{
+
+header .soc .fb {
     color: #160506;
     font-size: 25px;
 
 }
-header .soc .inst{
+
+header .soc .inst {
     color: #160506;
     font-size: 25px;
 
 }
-header .soc .tw{
+
+header .soc .tw {
     color: #160506;
     font-size: 25px;
 
 }
-header .soc .yt{
+
+header .soc .yt {
     color: #160506;
     font-size: 25px;
 
@@ -250,23 +278,24 @@ header .soc .yt{
 
 
 /*...SECTION...*/
-section.top-container{
+section.top-container {
     width: 100%;
     position: relative;
 }
 
-img.background{
+img.background {
     display: block;
     width: 100%;
 }
-div.trainers{
+
+div.trainers {
     width: 100%;
     position: absolute;
     bottom: 21px;
     z-index: 1;
 }
 
-.trainers h1{
+.trainers h1 {
     max-width: 1170px;
     margin: auto;
     text-align: center;
@@ -278,7 +307,7 @@ div.trainers{
     border-bottom: 3px solid #ff0000;
 }
 
-section .main.d-flex{
+section .main.d-flex {
     /*max-width: 1220px;*/
     margin: auto;
     justify-content: space-between;
@@ -286,17 +315,18 @@ section .main.d-flex{
 }
 
 /*...ASIDE...*/
-section .aside{
+section .aside {
     width: 242px;
     background-color: #000;
     padding-top: 25px;
 }
-section .aside .container{
+
+section .aside .container {
     max-width: 189px;
     padding-top: 25px;
 }
 
-section .aside nav ul li{
+section .aside nav ul li {
     display: flex;
     list-style: none;
     margin-bottom: 25px;
@@ -306,9 +336,10 @@ section .aside nav ul li{
     background-color: transparent;
     align-items: center;
 }
-section .aside nav ul li a{
+
+section .aside nav ul li a {
     width: 100%;
-    font-family: 'Metropolis Semi',sans-serif;
+    font-family: 'Metropolis Semi', sans-serif;
     font-size: 13px;
     color: #fff;
     text-decoration: none;
@@ -316,7 +347,7 @@ section .aside nav ul li a{
 
 }
 
-section .aside form{
+section .aside form {
     width: 100%;
     height: 42px;
     background-color: #fff;
@@ -324,7 +355,8 @@ section .aside form{
     align-items: center;
     margin-left: 25px;
 }
-section .aside button{
+
+section .aside button {
 
     font-size: 17px;
     color: #c2c2c2;
@@ -334,18 +366,21 @@ section .aside button{
     outline: none;
 
 }
-section .aside button i{
+
+section .aside button i {
     color: #c3c3c3;
     width: 18px;
     height: 17px;
 }
-section .aside input{
+
+section .aside input {
     width: 70%;
     border: 0;
     background-color: transparent;
     padding-top: 14px;
     outline: none;
 }
+
 ::placeholder {
     font-family: 'Metropolis', sans-serif;
     font-size: 15px;
@@ -353,17 +388,19 @@ section .aside input{
     text-transform: uppercase;
     padding-left: 14px;
 }
-section .aside nav ul li a{
+
+section .aside nav ul li a {
     padding-bottom: 12px;
 }
 
-section .aside nav ul li a span{
+section .aside nav ul li a span {
     text-transform: uppercase;
     font-family: 'Metropolis Semi', sans-serif;
     font-weight: 600;
     padding-left: 20px;
 
 }
+
 section .aside nav ul li:nth-child(1) a::before {
     content: "\f44b";
     display: inline-block;
@@ -427,6 +464,7 @@ section .aside nav ul li:nth-child(7) a::before {
     background-repeat: no-repeat;
 
 }
+
 section .aside nav ul li:nth-child(8) a::before {
     content: "\f1c8";
     font-family: "Font Awesome 5 Free";
@@ -435,7 +473,8 @@ section .aside nav ul li:nth-child(8) a::before {
     line-height: 1;
     color: #bebebe;
 }
-section .aside nav ul li:hover{
+
+section .aside nav ul li:hover {
     width: 240px;
     height: 34px;
     /*padding-top: 8px;*/
@@ -444,37 +483,40 @@ section .aside nav ul li:hover{
 
 
 /*...VIDEO TOP...*/
-section .video.container{
+section .video.container {
     max-width: 980px;
     margin: auto;
     padding: 34px 42px 0;
     background-color: #f1f1f1;
 }
-section .top.d-flex{
+
+section .top.d-flex {
     /*justify-content: space-between;*/
     flex-wrap: wrap;
 }
-section .headline.d-flex{
+
+section .headline.d-flex {
     /*justify-content: space-between;*/
     align-items: center;
     margin-bottom: 21px;
 
 }
 
-section .video .top{
+section .video .top {
     border-bottom: 1px solid #898989;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 34px;
 }
-section  div.image{
+
+section div.image {
     display: inline-block;
     width: 35px;
     height: 36px;
     text-align: center;
 }
 
-section .video h2{
+section .video h2 {
     display: inline-block;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 50px;
@@ -484,22 +526,26 @@ section .video h2{
     /*text-align: center;*/
 
 }
-section .big-video{
+
+section .big-video {
     max-width: 896px;
 }
-.big-video img.big{
+
+.big-video img.big {
     display: block;
     width: 100%;
 }
-section .video h2 span{
+
+section .video h2 span {
     margin-left: 26px;
 }
 
-form.d-flex{
+form.d-flex {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-form.d-flex label{
+
+form.d-flex label {
     width: 169px;
     height: 42px;
     background-color: #a1a1a1;
@@ -513,7 +559,8 @@ form.d-flex label{
     position: relative;
     margin-bottom: 21px;
 }
-form.d-flex select{
+
+form.d-flex select {
     width: 100%;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -528,11 +575,12 @@ form.d-flex select{
     border: none;
     outline: none;
 }
-form.d-flex select option{
+
+form.d-flex select option {
     width: 100%;
 }
 
-form.d-flex button{
+form.d-flex button {
     color: #fff;
     background-color: transparent;
     outline: none;
@@ -542,7 +590,7 @@ form.d-flex button{
 }
 
 /*...VIDEO TOP...*/
-section .video .big-video{
+section .video .big-video {
     display: block;
     width: 100%;
     margin-bottom: 37px;
@@ -550,35 +598,39 @@ section .video .big-video{
 
 /*...VIDEO SMALL...*/
 
-section .video_small .d-flex{
+section .video_small .d-flex {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
 
 }
 
-section .video_small .item{
+section .video_small .item {
 
     max-width: 430px;
     display: inline-block;
     border-bottom: 1px solid #898989;
     margin-bottom: 34px;
 }
-.video_small div.item_img{
+
+.video_small div.item_img {
     display: block;
     position: relative;
     width: 100%;
     margin-bottom: 21px;
 }
-.item_img img{
+
+.item_img img {
     display: block;
     width: 100%;
 }
-.item_img img.letter{
+
+.item_img img.letter {
     display: block;
 
     position: absolute;
 }
+
 /*section .video_small .d-flex .item{
     justify-content: space-between;
 
@@ -589,7 +641,7 @@ section .video_small .item img{
     margin-bottom: 21px;
 }*/
 
-div.item_img:after{
+div.item_img:after {
     content: "";
     display: block;
     width: 100%;
@@ -601,7 +653,7 @@ div.item_img:after{
     transition: 0.3s;
 }
 
-div.item_img:before{
+div.item_img:before {
     content: url('../images/images/logo-white_03.png');
     display: block;
     width: 100px;
@@ -613,18 +665,19 @@ div.item_img:before{
     transition: 0.3s;
 }
 
-div.item_img:hover:after{
+div.item_img:hover:after {
     background-color: rgba(134, 26, 27, 0.6);
 }
 
-div.item_img:hover:before{
+div.item_img:hover:before {
     content: url('../images/images/logo_letter_03.png');
 }
 
-section .video_small h4 span{
+section .video_small h4 span {
     padding-left: 17px;
 }
-section .video_small h4{
+
+section .video_small h4 {
     display: inline-block;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: normal;
@@ -632,6 +685,7 @@ section .video_small h4{
     font-size: 25px;
     margin-bottom: 20px;
 }
+
 section .video_small h4::before {
     content: "\f005";
     font-family: "Font Awesome 5 Free";
@@ -644,7 +698,7 @@ section .video_small h4::before {
 
 }
 
-section .video_small .item p{
+section .video_small .item p {
     display: inline-block;
     font-family: 'Metropolis', sans-serif;
     font-size: 13px;
@@ -694,13 +748,13 @@ section .video_small .item p{
     background-color: #959595;
 }
 
-input:checked + .slider.round{
+input:checked + .slider.round {
     background-color: #cccccc;
     color: #fa090a;
 }
 
 
-input:checked + .slider:before{
+input:checked + .slider:before {
     -webkit-transform: translateX(17px);
     -ms-transform: translateX(17px);
     transform: translateX(17px);
@@ -717,18 +771,21 @@ input:checked + .slider:before{
 }
 
 /*...NAV PAGE....*/
-section .video .page{
+section .video .page {
     max-width: 1170px;
     margin: auto;
     padding-bottom: 42px;
 }
-.page nav{
+
+.page nav {
     text-align: center;
 }
-.page nav ul li{
+
+.page nav ul li {
     display: inline;
 }
-.page nav ul li a{
+
+.page nav ul li a {
     text-decoration: none;
     color: #000;
     font-size: 10px;
@@ -743,7 +800,8 @@ section .video .page{
     text-align: center;
 
 }
-.page nav ul li a:hover{
+
+.page nav ul li a:hover {
     background-color: #fa090a;
     display: inline-block;
     width: 17px;
@@ -781,18 +839,19 @@ section .video .page{
 
 
 /*...FOOTER...*/
-footer{
+footer {
     background-color: #010006;
     padding: 75px 0 63px;
     position: relative;
 }
-footer .container{
+
+footer .container {
     max-width: 900px;
     margin: auto;
 }
 
 
-footer p{
+footer p {
     font-family: 'Metropolis', sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -802,10 +861,12 @@ footer p{
     text-transform: uppercase;
     margin-bottom: 36px;
 }
-footer .d-flex{
+
+footer .d-flex {
     justify-content: center;
 }
-footer input{
+
+footer input {
     width: 390px;
     height: 43px;
     padding: 15px 0 15px 26px;
@@ -816,7 +877,8 @@ footer input{
     color: #959595;
     outline: none;
 }
-footer button{
+
+footer button {
     width: 310px;
     height: 51px;
     background-color: #ff0000;
@@ -830,30 +892,34 @@ footer button{
 }
 
 /*...FOOTER LINKS...*/
-footer .links{
+footer .links {
     background-color: #252525;
     margin-bottom: 64px;
     padding: 51px 0 65px;
 }
-footer .links .container{
+
+footer .links .container {
     max-width: 1170px;
     margin: auto;
 
 }
-footer .links .d-flex{
+
+footer .links .d-flex {
     justify-content: space-between;
 }
-footer img{
+
+footer img {
     display: block;
     width: 100%;
     margin-bottom: 44px;
 }
 
 
-footer nav ul{
+footer nav ul {
     list-style: none;
 }
-footer .info a{
+
+footer .info a {
     text-decoration: none;
     font-size: 13px;
     color: #fff;
@@ -861,12 +927,14 @@ footer .info a{
     font-weight: 500;
     line-height: 34px;
 }
-footer .soc ul li{
+
+footer .soc ul li {
     display: inline-block;
     align-items: flex-end;
 
 }
-footer .soc a{
+
+footer .soc a {
     display: inline-block;
     width: 42px;
     height: 42px;
@@ -875,22 +943,26 @@ footer .soc a{
     text-align: center;
     padding-top: 6px;
 }
-footer .soc .fb{
+
+footer .soc .fb {
     color: #252525;
     font-size: 30px;
 
 }
-footer .soc .inst{
+
+footer .soc .inst {
     color: #252525;
     font-size: 30px;
 
 }
-footer .soc .tw{
+
+footer .soc .tw {
     color: #252525;
     font-size: 30px;
 
 }
-footer .soc .yt{
+
+footer .soc .yt {
     color: #252525;
     font-size: 30px;
 
